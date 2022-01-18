@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(61, 61, 61);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#cont {
+    width: 600px;
+    height: 700px;
+    border: 2px solid red;
+    background-color: rgb(255, 145, 0);
+    justify-content: center;
+    align-items: center;
+}
+#player {
+    width: 40px;
+    height: 40px;
+    background-color: crimson;
+    margin-top: 40px;
+}
+.header {
+    background-color: rgb(0, 213, 255);
+    height:49px;
+    border-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+}
+.RandomCube {
+    padding: 10px;
+}
+#score {
+    text-align: right;
+    color: white;
+    margin-bottom: -50;
+}
+#timer {
+    text-align: right;
+    margin-top: -80px;
+}
